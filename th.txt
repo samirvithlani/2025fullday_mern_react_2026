@@ -41,4 +41,11 @@ src:
    Content.jsx
 
 
-ctrl +x from app.js 0->variable --->
+ctrl +x from app.js 0->variable ---> return 
+
+
+style:
+1)inline css : <div style ="">
+2)external css : .css
+3)internal css : <style>
+

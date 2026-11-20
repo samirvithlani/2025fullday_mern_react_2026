@@ -1,8 +1,10 @@
 import React from 'react'
+// <link rel href = ".../"
+import "../assets/css/header.css"
 
 export const Header = () => {
   return (
-    <div>
+    <div className="header">
         <h1>HEADER</h1>
     </div>
   )
