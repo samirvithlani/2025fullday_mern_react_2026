@@ -1,0 +1,44 @@
+html --->js
+
+html -->bind
+
+1st option
+
+html 
+
+<h1 id="text">
+
+js -->event --> 
+var text = document.getElemtid("text")
+text.innerHTM=23
+'
+2nd approch:
+var root = document.getElemtid(""root)
+
+var x =100
+const h1 = document.createElement("h1")
+h1.innerHTM=x
+root.appenChild(h1)
+
+
+component: kind of function
+
+we can create 2 type of component:
+
+1)class based:
+2)function based function : 16.x
+
+all react component name must starts with cap:
+file name has not any naming rule : but....
+
+
+rafc
+
+src:
+ components
+   Header.jsx
+   Footer.jsx
+   Content.jsx
+
+
+ctrl +x from app.js 0->variable --->
