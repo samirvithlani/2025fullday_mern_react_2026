@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import {Header} from "./components/Header"
 import { Footer } from './components/Footer'
 import { Content } from './components/Content'
+import { Match } from './components/Match'
 //import './App.css'
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Content></Content>
+      <Match></Match>
+      {/* <Content></Content> */}
       <Footer></Footer>
     </div>
   )
