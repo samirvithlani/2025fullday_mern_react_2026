@@ -1,6 +1,7 @@
 import React from "react";
 
 export const Content = () => {
+    
   var year = 2026;
   var country = "India";
   var isActive = true;
@@ -11,8 +12,8 @@ export const Content = () => {
   var x;
 
   return (
-    <div>
-      <h1>CONTENT</h1>
+    <div style={{textAlign:"center",height:"100%",width:"98%",border:"1px solid",margin:"10px"}}>
+      <h1 style={{color:"red"}}>CONTENT</h1>
 
       <h1>Hello</h1>
       <h1>Every tag must have closing tag</h1>
