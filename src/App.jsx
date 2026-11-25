@@ -5,6 +5,8 @@ import {Header} from "./components/Header"
 import { Footer } from './components/Footer'
 import { Content } from './components/Content'
 import { Match } from './components/Match'
+import { MapDemo1 } from './components/MapDemo1'
+import { MapDemo2 } from './components/MapDemo2'
 //import './App.css'
 
 function App() {
@@ -13,10 +15,8 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
-      <Match></Match>
-      {/* <Content></Content> */}
-      <Footer></Footer>
+      {/* <MapDemo1></MapDemo1> */}
+      <MapDemo2></MapDemo2>
     </div>
   )
 }

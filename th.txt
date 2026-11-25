@@ -49,3 +49,20 @@ style:
 2)external css : .css
 3)internal css : <style>
 
+____________________________
+
+create 1 component named Nvidia
+declare 1 object named user
+var user = {
+  name:"jensen",
+  age:60,
+  isActive:false
+}
+
+
+name -->
+age ===>
+isActive
+
+task: age > 60 * sr citizen
+not active ---> red active green
