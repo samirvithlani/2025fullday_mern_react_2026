@@ -66,3 +66,37 @@ isActive
 
 task: age > 60 * sr citizen
 not active ---> red active green
+
+
+
+react routing:
+component -->url
+a href="aboutus.html"
+SPA ->single page applicaation:
+
+component urls:
+3rd party lib: react-router-dom
+
+npm i react-router-dom:
+
+<BrowserRouter>:to enable routing in react application: main.jsx ->
+<Routes> : it will all url
+<Route> : it will create url
+
+1st attribute :<Routes path="/about">
+2nd attribute :<Routes path ="/about" element ={<AboutUs/>}>
+
+flow:
+npm i react-router-dom:
+verify package.json
+
+main.jsx -->BrowserRouter
+app.jsx --><routes>
+
+create folder hotstar inside components
+HotstarHome.jsx
+
+app.jsx -->
+<Route>
+
+repete for HottstarMovies

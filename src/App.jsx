@@ -8,6 +8,10 @@ import { Match } from './components/Match'
 import { MapDemo1 } from './components/MapDemo1'
 import { MapDemo2 } from './components/MapDemo2'
 import { MapDemo3 } from './components/MapDemo3'
+import { MapDemo4 } from './components/MapDemo4'
+import { Route, Router, Routes } from 'react-router-dom'
+import { HotstarHome } from './components/hotstar/HotstarHome'
+import { HotstarMovis } from './components/hotstar/HotstarMovis'
 //import './App.css'
 
 function App() {
@@ -16,9 +20,10 @@ function App() {
 
   return (
     <div>
-      {/* <MapDemo1></MapDemo1> */}
-      {/* <MapDemo2></MapDemo2> */}
-      <MapDemo3></MapDemo3>
+      <Routes>
+          <Route path='/home' element ={<HotstarHome/>}></Route>
+          <Route path='/movies' element={<HotstarMovis/>} ></Route>
+      </Routes>
     </div>
   )
 }
